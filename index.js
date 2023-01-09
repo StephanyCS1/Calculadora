@@ -1,6 +1,7 @@
 window.addEventListener('load', () => { //empieza a escuchar al cargar el doc
 
     const display = document.querySelector('.display');
+    const resultView = document.querySelector('result');
     //crea un html collection con todos los botones
     const buttons = document.getElementsByClassName('button');
     //creamos un array del html collection

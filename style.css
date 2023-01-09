@@ -18,7 +18,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-color: #000000;
+    background-color: #030202ef;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 1px 5px 0px 2.5px #b3b3b315;
@@ -27,21 +27,29 @@ body {
     cursor: pointer;
     margin: 5px;
     padding: 0;
-    border-radius: 5px;
-    font-size: 1.5em;
+    border-radius: 35px;
+    font-size: 2em;
     border: none;
-    background-color: #154764;
-    border: none;   
+    background-color: #08395bdb;
+    border: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 button {
     cursor: pointer;
     margin: 5px;
     padding: 0;
-    border-radius: 5px;
-    font-size: 1.5em;
+    border-radius: 35px;
+    font-size: 2em;
     border: none;
-    background-color: rgb(255, 166, 0);
+    background-color: #f1951c;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 
 button:active {
@@ -54,6 +62,10 @@ button:focus {
 
 .btn-equals {
     grid-column: span 2;
+}
+.number{
+    color: black;
+    font-weight: bold;
 }
 
 .display {
@@ -70,8 +82,9 @@ button:focus {
     justify-content: space-between;
     word-break: break-all;
     box-shadow: 0px 0px 0px 10px #38353533;
+    font-size: 6em;
 }
 
 .result {
-    font-size: 5em;
+    font-size: 18em;
 }
